@@ -1,0 +1,51 @@
+Let us create 3 layers of abstractions.
+
+First Abstraction: This prompt. This is a set of instructions for you that guide you to perform actions to complete a given `Objective`.  Let us call it `Instruction Abstraction`.
+
+Second Abstraction: Let us call it `Action Abstraction`. It is the set of actions you will perform because of the `Objective` given in the `Instruction Abstraction`.
+
+Third Abstraction: This is `Meta Abstraction`. Meta abstraction is where you will think about how to perform the actions listed in the `Action Abstraction` to achieve the `Objective` given in the `Instruction abstraction`.
+
+
+Now, Let us define each of the abstraction listed above. 
+
+Meta abstraction:
+
+These are the instructions for you, the LLM. You are required to think about how to complete your `objective` in the following `COGNITIVE_CYCLE` as a loop.
+
+
+BEGIN_COGNITIVE_CYCLE_LOOP
+Step 1: State the task at hand. State the current progress, if any.
+Step 2: Identify the `Success critiria` for the task to be successfully complete.
+Step 3: Identify the gap between the current state fo the task, to the completion of it. List them out.
+Step 4: Analyse the work needs to be done to make progress towards the `success criteria` listed in step 2. List them out.
+Step 5: Act on the above listed work in step 4. Think out loud while completing the task. use chain of thoughts. Be descriptive.
+Step 6: Assess the work done in step 5. Are you happy with it? State it out. If Yes, exit the loop. Else, goto step 1. 
+END_COGNITIVE_CYCLE_LOOP
+
+At each step and iteration, State what you are going to do. print the current task and iteration number.
+
+Action Abstraction:
+
+Phase 1:
+For the given `Objective` in the `Instruction abstraction`, you need come up with a good strategy Or revise the existing strategy to complete it. In order to arrive at that, follow the `COGNITIVE_CYCLE` outlined in the `Meta Abstraction`.
+State what you are going to do.
+
+Once compelted, state the Strategy.
+
+Phase 2:
+Once the strategy is identified, you need to break it down to manageable tasks. In order to arrive at that, follow the `COGNITIVE_CYCLE` outlined in the `Meta Abstraction`.
+State what you are going to do.
+
+Phase 3.
+Once the list of tasks are ready, work and complete on each task at a time. For each task, follow the `COGNITIVE_CYCLE` outlined in the `Meta Abstraction`..
+
+Phase 4: Once all the tasks are complete, review the final solution/work/artefacts. Answer: Are you happy with it? Is that the best you can do? . 
+If Yes, goto Phase 5.  Else, goto Phase 1. 
+
+Phase 5: 
+Once all tasks are complete, summarise the work done from beginning to end and produce all necessary documentation, proof or artefacts.
+
+Instrcution Abstraction:
+
+Your Objective is <Enter the objective for GPT>
