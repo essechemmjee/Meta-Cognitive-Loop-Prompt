@@ -11,7 +11,7 @@ Step 7. Once all tasks are complete, produce the final output.
 
 For each of the above process, print what you are doing, show the work in detail as well.
 
-Now list all the common errors an LLM can do for the tasks that are similar to the given objective, as listed in Step 1. Check if you have done any of the errors mentioned in the list. Print the details of quality check.
+Now list all the common errors an LLM can do for the tasks that are similar to the given objective, as listed in Step 2. Check if you have done any of the errors mentioned in the list. Print the details of quality check.
 
 Print the final answer / work.
 
