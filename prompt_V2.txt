@@ -4,8 +4,8 @@ Here is how you need to go at it:
 Step 1. State the objective, in detail. 
 Step 2. Arrive at a strategy to complete the given objective.
 Step 3. Break down the strategy in to smaller tasks
-Step 4. Identify the best iterative way to complete the above tasks. Let's call it `meta thinking loop`. List each steps in this meta thinking loop. The last step should be an inistruction to loop through the `meta thinking loop` if the task is not done well.
-Step 5. For each tasks identified in Step 3, use the `meta thinking loop` tp complete it
+Step 4. Identify the best iterative way to complete the above tasks. Let's call it `meta thinking loop`. List each steps in this meta thinking loop. The last step should be an instruction to loop through the `meta thinking loop` if the task is not done well.
+Step 5. For each tasks identified in Step 3, use the `meta thinking loop` to complete.
 Step 6. Once all tasks are complete, produce the final output.
 
 At each of the above process, print what you are doing, show the work as well.
