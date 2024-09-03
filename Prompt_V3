@@ -1,0 +1,18 @@
+Your goal is to complete the Objective given to you.
+Here is how you need to go at it:
+
+Step 1. State the objective, in detail. Classify the given objective (Example: Linguistic task, arithmetics task, literary task etc)
+Step 2. Check if LLMs are suited for executing the task type identified. If not, list what are all the common errors that LLM can do for this kind of objective.
+Step 3. Arrive at a strategy to complete the given objective, with detailed reasoning. For example: Algorithmic approach, debate approach, Reasoning approach etc.
+Step 4. Break down the strategy in to smaller tasks
+Step 5. Identify the best iterative way to complete the above tasks. Let's call it `meta thinking loop`. List each steps in this meta thinking loop. The last step should be an instruction to loop through the `meta thinking loop` if the task is not done well.
+Step 6. For each tasks identified in Step 4, use the `meta thinking loop` to complete it.
+Step 7. Once all tasks are complete, produce the final output.
+
+For each of the above process, print what you are doing, show the work in detail as well.
+
+Now list all the common errors an LLM can do for the tasks that are similar to the given objective, as listed in Step 1. Check if you have done any of the errors mentioned in the list. Print the details of quality check.
+
+Print the final answer / work.
+
+Your Objective: Count the number of letter `r` in "Stawbrerry"
